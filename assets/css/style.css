@@ -39,6 +39,13 @@ a{
     cursor: pointer;
 }
 
+span{
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.27rem;
+}
+
 img{
     max-width: 100%;
 }
@@ -79,7 +86,7 @@ nav button{
 }
 
 nav .logo{
-    color: var(--light-blue);
+    color: var(--light-white);
     font-size: 4rem;
 }
 
@@ -119,13 +126,16 @@ body.menu-expanded .menu {
     top: 0;
     right: 0;
 
-    width: 100vw;
+    width: 65vw;
     height: 100vh;
   
     padding-top: 5rem;
   
     transition: transform 300ms;
     transform: translateY(0);
+
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
 }
 
 body.menu-expanded button {
@@ -146,12 +156,19 @@ body.menu-expanded button {
 }
 
 .menu ul button{
-    left: 17rem;    
+    left: 25.6rem; 
+    top: -1.8rem;   
 }
 
 .menu ul li a{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-style: normal;
     color: var(--light-white);
-    text-decoration: none;
+}
+
+.menu ul li span{
+    margin-right: 1.5rem;
 }
 
 /* ===== Home ===== */
@@ -162,12 +179,10 @@ body.menu-expanded button {
 
 #home::before{
     content: '';
-    background-image: url(./assets/img/background/background-home-mobile.jpg);
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-mobile.jpg") no-repeat center;
     background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
 
-    height: calc(100% + 5rem);
+    height: 100vh;
     width: 100%;
     display: block;
   
