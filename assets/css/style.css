@@ -6,7 +6,8 @@
 
 :root{
 
-    --dark-blue: hsl(230, 35%, 7%);
+    --dark-blue: hsl(230, 33%, 7%);
+    --dark-black: hsl(230, 35%, 7%);
     --light-blue: hsl(231, 77%, 90%);
     --light-white: hsl(0, 0%, 100%);
 
@@ -28,6 +29,7 @@ body{
     font-size: 1.6rem;
     text-align: center;
     overflow: overlay;
+    color: var(--light-white);
 }
 
 ul{
@@ -35,8 +37,29 @@ ul{
 }
 
 a{
+    font-family: 'Barlow Condensed';
     text-decoration: none;
     cursor: pointer;
+    color: var(--light-white);
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.27rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+button{
+    font-family: 'Bellefair';
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+ 
+    line-height: 2.3rem;
+    letter-spacing: 0.125rem;
+    border: none;
 }
 
 span{
@@ -46,8 +69,29 @@ span{
     letter-spacing: 0.27rem;
 }
 
-img{
-    max-width: 100%;
+h1{
+    font-size: 8rem;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 10rem;
+}
+
+h5{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.27rem;
+    line-height: 1.9rem;
+}
+
+p{
+    font-family: 'Barlow';
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2.5rem;
 }
 
 .wrapper{
@@ -172,7 +216,6 @@ body.menu-expanded button {
 }
 
 /* ===== Home ===== */
-
 #home{
     padding-block: 0;
 }
@@ -190,5 +233,47 @@ body.menu-expanded button {
     top: 0;
     z-index: -1;
 }
+
+#home .wrapper{
+    margin-top: 5rem;
+}
+
+#home header{
+    margin-bottom: 8rem;
+}
+
+#home header h1{
+    margin-block: 1.6rem;
+    margin-inline: auto;
+}
+
+#home header p{
+    width: 90%;
+}
+
+#home header h5,
+#home header p{
+    color: var(--light-blue);
+    margin-inline: auto;
+}
+
+#home button{
+    padding: 6rem 2.5rem;
+    margin-block: auto;
+    border-radius: 10rem;    
+    z-index: -1;
+}
+
+#home button:hover{
+    background-color: #ffffffb2;
+}
+
+
+
+
+
+
+
+
 
 
