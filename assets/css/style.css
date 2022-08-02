@@ -211,6 +211,10 @@ body.menu-expanded button {
     color: var(--light-white);
 }
 
+.menu ul li a:hover{
+    color: var(--light-blue);
+}
+
 .menu ul li span{
     margin-right: 1.5rem;
 }
@@ -277,21 +281,15 @@ body.menu-expanded button {
     font-size: 1.7rem;
 }
 
-#home .destination-edit span{
-    mix-blend-mode: normal;
-    opacity: 0.25;
-    margin-right: 2rem;
-}
-
 #home .destination-edit img{
-    width: 18rem;
+    width: 16rem;
     margin-block: 3rem;
 }
 
 #home .sub-menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-inline: auto;
 }
 
@@ -303,15 +301,19 @@ body.menu-expanded button {
     font-size: 1.4rem;
 }
 
+#home .sub-menu a:hover{
+    border-bottom: 3px solid var(--light-white);
+    padding-bottom: 1rem;
+}
+
 #home .content h1{
     font-size: 6rem;
-    margin-block: 0.4rem;
+    margin: 1rem 0 0.5rem 0;
 }
 
 #home .content p{
     color: var(--light-blue);
     font-size: 1.5rem;
-    margin-block: auto;
 }
 
 
