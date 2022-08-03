@@ -286,14 +286,14 @@ body.menu-expanded button {
     margin-block: 3rem;
 }
 
-#home .sub-menu{
+#home #sub-menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-inline: auto;
 }
 
-#home .sub-menu a{
+#home #sub-menu a{
     font-family: 'Barlow Condensed';
     color: var(--light-blue);
     text-transform: uppercase;
@@ -301,7 +301,7 @@ body.menu-expanded button {
     font-size: 1.4rem;
 }
 
-#home .sub-menu a:hover{
+#home #sub-menu a:hover{
     border-bottom: 3px solid var(--light-white);
     padding-bottom: 1rem;
 }
