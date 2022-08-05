@@ -226,7 +226,6 @@ body.menu-expanded button {
 
 #home::before{
     content: '';
-    background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-mobile.jpg") no-repeat center;
     background-size: cover; 
 
     height: 100vh;
@@ -236,6 +235,18 @@ body.menu-expanded button {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+.home-bg::before{
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-mobile.png") no-repeat center;
+}
+
+.destination-bg::before{
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-mobile.jpg") no-repeat center;
+}
+
+.character-bg::before{
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-characters-mobile.jpg") no-repeat center;
 }
 
 #home .wrapper{
@@ -272,18 +283,26 @@ body.menu-expanded button {
     background-color: #ffffffb2;
 }
 
-#home .destination-edit{
+#home .destination-edit,
+#home .character-edit{
     margin-bottom: 0;
 }
 
-#home .destination-edit h5{
+#home .destination-edit h5,
+#home .character-edit h5{
     color: var(--light-white);
     font-size: 1.7rem;
 }
 
-#home .destination-edit img{
+#home .destination-edit img,
+#home .character-edit img{
     width: 16rem;
     margin-block: 3rem;
+}
+
+#home #character-img{
+    width: 21rem;
+    border-bottom: 1px solid #ffffff27;
 }
 
 #home #sub-menu{
