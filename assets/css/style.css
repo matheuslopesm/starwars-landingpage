@@ -249,6 +249,10 @@ body.menu-expanded button {
     background: #ffffff url("/starwars-landingpage/assets/img/background/background-characters-mobile.jpg") no-repeat center;
 }
 
+.ships-bg::before{
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-mobile.jpg") no-repeat center;
+}
+
 #home .wrapper{
     margin-top: 1rem;
 }
@@ -284,18 +288,21 @@ body.menu-expanded button {
 }
 
 #home .destination-edit,
-#home .character-edit{
+#home .character-edit,
+#home .ships-edit{
     margin-bottom: 0;
 }
 
 #home .destination-edit h5,
-#home .character-edit h5{
+#home .character-edit h5,
+#home .ships-edit h5{
     color: var(--light-white);
     font-size: 1.7rem;
 }
 
 #home .destination-edit img,
-#home .character-edit img{
+#home .character-edit img,
+#home .ships-edit img{
     width: 16rem;
     margin-block: 3rem;
 }
