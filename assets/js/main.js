@@ -117,5 +117,17 @@ const changeShipsDescription = {
 
 shipsButtons.addEventListener('click', shipsOption);
 
+ScrollReveal({
+origin: 'left',
+distance: '50px',
+duration: 900
+}).reveal(` 
+    #planet-img,
+    #character-img,
+    #ships-img,
+    #planet-name,
+    #character-name,
+    #ships-name
+`)
 
 

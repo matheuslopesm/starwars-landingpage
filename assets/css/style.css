@@ -293,6 +293,11 @@ body.menu-expanded button {
     margin-bottom: 0;
 }
 
+#home h1{
+    position: relative;
+    z-index: -1;
+}
+
 #home .destination-edit h5,
 #home .character-edit h5,
 #home .ships-edit h5{
@@ -305,6 +310,8 @@ body.menu-expanded button {
 #home .ships-edit img{
     width: 16rem;
     margin-block: 3rem;
+    position: relative;
+    z-index: -1;
 }
 
 #home #character-img{
@@ -321,7 +328,7 @@ body.menu-expanded button {
 
 #home #sub-menu a{
     font-family: 'Barlow Condensed';
-    color: var(--light-blue);
+    color: var(--light-white);
     text-transform: uppercase;
     letter-spacing: 0.23rem;
     font-size: 1.4rem;
