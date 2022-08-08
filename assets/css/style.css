@@ -347,6 +347,43 @@ body.menu-expanded button {
     color: var(--light-blue);
     font-size: 1.5rem;
 }
+/* 
+@media(min-width: 768px) {
+
+    nav .wrapper * {
+        margin: 0;
+        padding: 0;
+        visibility: initial;
+        display: initial;
+        opacity: initial;
+        flex-direction: initial;
+        position: initial;
+        transform: initial;
+        background-color: initial;
+        filter: initial;
+    }
+
+    .wrapper{
+        width: min(75rem, 100%);
+    }
+
+    nav .close-menu,
+    nav .open-menu{
+      display: none;
+    }
+
+    nav .menu span{
+        display: none;
+        visibility: hidden;
+    }
+
+    .menu ul{
+        justify-content: space-between;
+        gap: 5rem;
+    }
+
+    
+} */
 
 
 
