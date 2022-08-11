@@ -253,15 +253,15 @@ body.menu-expanded button {
 }
 
 #home .wrapper{
-    margin-top: 7rem;
+    margin-top: 1rem;
 }
 
 #home header{
-    margin-bottom: 15rem;
+    margin-bottom: 8rem;
 }
 
 #home header h1{
-    margin-block: 3rem;
+    margin-block: 1.6rem;
     margin-inline: auto;
 }
 
@@ -305,9 +305,15 @@ body.menu-expanded button {
 }
 
 #home .destination-edit img,
-#home .character-edit img,
-#home .ships-edit img{
+#home .character-edit img{
     width: 16rem;
+    margin-block: 3rem;
+    position: relative;
+    z-index: -1;
+}
+
+#home .ships-edit img{
+    width: 14rem;
     margin-block: 3rem;
     position: relative;
     z-index: -1;
@@ -428,40 +434,33 @@ body.menu-expanded button {
         margin-bottom: 4rem;
     }
 
-    #home #planet-img{
-        margin: 2rem;
-    }
-
     #home .destination-edit img{
-        width: 15rem;
-        margin-block: 0.5rem;
+        width: 17rem;
+        margin-block: 2rem;
     }
 
     #home #character-img{
-        width: 15rem;
+        width: 17rem;
     }
-    
-    #home header p{
-        width: 55%;
+
+    #home #sub-menu{
+        width: 60%;
     }
 
     #home .content h1{
-        font-size: 5rem;
-        margin: 0;
+        margin: 2rem 0 0.5rem 0;
+        line-height: 7rem;
     }
-
-
-
-
-
-
     
-
-
-
-
-    
+    #home #planet-description,
+    #home #character-description,
+    #home #ships-description{
+        width: 85%;
+        margin-inline: auto;
+    } 
 } 
+
+
 
 
 
