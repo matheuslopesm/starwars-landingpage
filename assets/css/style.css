@@ -458,7 +458,7 @@ body.menu-expanded button {
     } 
 } 
 
-@media(min-width: 1279px){
+@media(min-width: 1024px){
 
     /* ===== Navigation ===== */
     nav .menu span{
