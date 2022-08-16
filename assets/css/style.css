@@ -261,7 +261,7 @@ body.menu-expanded button {
 }
 
 #home header h1{
-    margin-block: 1.6rem;
+    margin-block: 1.4rem;
     margin-inline: auto;
 }
 
@@ -276,7 +276,7 @@ body.menu-expanded button {
 }
 
 #home button{
-    padding: 6rem 2.5rem;
+    padding: 7rem 2.5rem;
     margin-block: auto;
     border-radius: 10rem;    
     z-index: -1;
@@ -292,11 +292,6 @@ body.menu-expanded button {
     margin-bottom: 0;
 }
 
-#home h1{
-    position: relative;
-    z-index: -1;
-}
-
 #home .destination-edit h5,
 #home .character-edit h5,
 #home .ships-edit h5{
@@ -304,25 +299,24 @@ body.menu-expanded button {
     font-size: 1.7rem;
 }
 
-#home .destination-edit img{
-    width: 16rem;
+#home .destination-edit img,
+#home .ships-edit img,
+#home #character-img{
     margin-block: 3rem;
     position: relative;
     z-index: -1;
+}
+
+#home .destination-edit img{
+    width: 16rem;
 }
 
 #home .ships-edit img{
     width: 14rem;
-    margin-block: 3rem;
-    position: relative;
-    z-index: -1;
 }
 
 #home #character-img{
     width: 17rem;
-    margin-block: 3rem;
-    position: relative;
-    z-index: -1;
     border-bottom: 1px solid #ffffff27;
 }
 
@@ -354,6 +348,8 @@ body.menu-expanded button {
 #home .content h1{
     font-size: 6rem;
     margin: 1rem 0 0.5rem 0;
+    position: relative;
+    z-index: -1;
 }
 
 #home .content p{
@@ -499,6 +495,12 @@ body.menu-expanded button {
         justify-content: space-between;
     }
 
+    #home .wrapper-ships-desktop{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
     #home header{
         width: 60%;
         text-align: left;
@@ -528,13 +530,15 @@ body.menu-expanded button {
     }
 
     #home .wrapper-destination-desktop,
-    #home .wrapper-character-desktop{
+    #home .wrapper-character-desktop,
+    #home .wrapper-ships-desktop{
         margin-top: 10rem;
         gap: 10rem;
     }
 
     #home .destination-edit h5,
-    #home .character-edit h5{
+    #home .character-edit h5,
+    #home .wrapper-ships-desktop h5{
         font-size: 2rem;
     }
 
@@ -542,6 +546,12 @@ body.menu-expanded button {
         width: 30rem;
         margin-top: 6rem;
         margin-left: 3rem;
+    }
+
+    #home .ships-edit img{
+        width: 26rem;
+        margin-top: 5rem;
+        margin-left: 0;
     }
 
     #home .character-edit img{
@@ -553,43 +563,30 @@ body.menu-expanded button {
     }
 
     #home .wrapper-destination-desktop .content,
-    #home .wrapper-character-desktop .content{
+    #home .wrapper-character-desktop .content,
+    #home .wrapper-ships-desktop .content{
         width: 90%;
         text-align: left;
     }
 
     #home .wrapper-destination-desktop #planet-description,
-    #home .wrapper-character-desktop #character-description{
+    #home .wrapper-character-desktop #character-description,
+    #home .wrapper-ships-desktop #ships-description{
         margin: 0;
     }
 
     #home .wrapper-destination-desktop #sub-menu,
-    #home .wrapper-character-desktop #sub-menu{
+    #home .wrapper-character-desktop #sub-menu,
+    #home .wrapper-ships-desktop #sub-menu{
         margin: 0;
         justify-content: space-between;
     }
 
     #home .wrapper-destination-desktop h1,
-    #home .wrapper-character-desktop h1{
+    #home .wrapper-character-desktop h1,
+    #home .wrapper-ships-desktop h1{
         margin: 5rem 0 1.6rem 0;
-    }
-
-
-
-  
-
-    
-
-    
-
-
-
-
-
-
-
-
-    
+    }    
 }
 
 
