@@ -320,11 +320,6 @@ body.menu-expanded button {
     border-bottom: 1px solid #ffffff27;
 }
 
-#home #content-tablet{
-    display: none;
-    visibility: hidden;
-}
-
 #home #sub-menu{
     display: flex;
     flex-direction: row;
@@ -333,8 +328,6 @@ body.menu-expanded button {
 }
 
 #home #sub-menu a{
-    font-family: 'Barlow Condensed';
-    color: var(--light-white);
     text-transform: uppercase;
     letter-spacing: 0.23rem;
     font-size: 1.4rem;

@@ -6,7 +6,7 @@ In this project i used a lot of arrow functions in JavaScript and manipulation o
 
 # Final Result 🔥 
 
-<!-- <img src="assets/final.png" alt="Web Version"/>  -->
+<img src="assets\img\web-version.png" alt="Web Version"/> 
 
 ## Starting 
 
