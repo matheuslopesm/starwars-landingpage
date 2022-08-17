@@ -237,19 +237,19 @@ body.menu-expanded button {
 }
 
 .home-bg::before{
-    background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-mobile.webp") no-repeat center;
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-mobile.jpg") no-repeat center;
 }
 
 .destination-bg::before{
-    background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-mobile.webp") no-repeat center;
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-mobile.svg") no-repeat center;
 }
 
 .character-bg::before{
-    background: #ffffff url("/starwars-landingpage/assets/img/background/background-characters-mobile.webp") no-repeat center;
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-character-mobile.svg") no-repeat center;
 }
 
 .ships-bg::before{
-    background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-mobile.webp") no-repeat center;
+    background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-mobile.svg") no-repeat center;
 }
 
 #home .wrapper{
@@ -406,19 +406,19 @@ body.menu-expanded button {
     }
 
     .home-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-tablet.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-tablet.jpg") no-repeat center;
     }
     
     .destination-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-tablet.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-tablet.svg") no-repeat center;
     }
     
     .character-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-characters-tablet.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-character-tablet.svg") no-repeat center;
     }
     
     .ships-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-tablet.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-tablet.svg") no-repeat center;
     }
 
     #home header{
@@ -465,19 +465,19 @@ body.menu-expanded button {
 
     /* ===== Home ===== */
     .home-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-desktop.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-home-desktop.jpg") no-repeat center;
     }
     
     .destination-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-desktop.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-destination-desktop.svg") no-repeat center;
     }
     
     .character-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-characters-desktop.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-character-desktop.svg") no-repeat center;
     }
     
     .ships-bg::before{
-        background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-desktop.webp") no-repeat center;
+        background: #ffffff url("/starwars-landingpage/assets/img/background/background-ship-desktop.svg") no-repeat center;
     }
 
     #home .wrapper{
